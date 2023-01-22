@@ -26,13 +26,13 @@ public class Pizza {
 
         this.isVeg=isVeg;
 
-        if(isVeg=true){
+        if(isVeg==true){
             this.price=300;
             this.topping=70;
         }
 
         else{
-            price=400;
+            this.price=400;
             this.topping =120;
         }
 
